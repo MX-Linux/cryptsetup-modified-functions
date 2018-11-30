@@ -1,0 +1,11 @@
+Source: cryptsetup-modified-functions
+Section: system
+Priority: optional
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+
+Package: cryptsetup-modified-functions
+Architecture: all
+Depends:
+Description: cryptsetup-modified-functions.
