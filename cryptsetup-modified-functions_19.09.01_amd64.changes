@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 25 Sep 2019 18:07:32 -0400
+Source: cryptsetup-modified-functions
+Binary: cryptsetup-modified-functions
+Architecture: source all
+Version: 19.09.01
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ cryptsetup-modified-functions - cryptsetup-modified-functions.
+Changes:
+ cryptsetup-modified-functions (19.09.01) mx; urgency=medium
+ .
+   * update for buster
+Checksums-Sha1:
+ 3f7dab8bde6343f2b22793699921698057c58a64 647 cryptsetup-modified-functions_19.09.01.dsc
+ 10309b713113a26897b96775fc75311159303cd5 7072 cryptsetup-modified-functions_19.09.01.tar.xz
+ 03ef7e19ee9b0fd5a3e5ffa056a07004277ae7b9 3636 cryptsetup-modified-functions_19.09.01_all.deb
+ 2ee5364953135319136b3505009dea6e793b2fcc 4745 cryptsetup-modified-functions_19.09.01_amd64.buildinfo
+Checksums-Sha256:
+ aebf0e23396583d22111112afed61ccbae806f6f9a5ba3a5dd66f9b469f4bb62 647 cryptsetup-modified-functions_19.09.01.dsc
+ 0b597f7f43891fe38d5a5adad8dd7ed234cb5183cc56d4de92a0f8fb921d2b17 7072 cryptsetup-modified-functions_19.09.01.tar.xz
+ df34f6f83b41c4a9181aa2014de2083d82d020331f31864c48d98fcead13d03c 3636 cryptsetup-modified-functions_19.09.01_all.deb
+ 78bbeeca2b5fdf137baef78ff55de4f79d68e1a4ad3daaa43387f3c31a0c3583 4745 cryptsetup-modified-functions_19.09.01_amd64.buildinfo
+Files:
+ ffa779049bfca0b872e6eb2845e76abe 647 system optional cryptsetup-modified-functions_19.09.01.dsc
+ 7fb7745af805df4e83cc1a331e316a64 7072 system optional cryptsetup-modified-functions_19.09.01.tar.xz
+ d42b15d417dec4a24880d03fc39ef4af 3636 system optional cryptsetup-modified-functions_19.09.01_all.deb
+ 8d9c01827368c2c5c2b635e4bd8e80fa 4745 system optional cryptsetup-modified-functions_19.09.01_amd64.buildinfo

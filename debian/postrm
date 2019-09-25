@@ -11,8 +11,8 @@ case "$1" in
                             --remove                                              \
                             --package cryptsetup-modified-functions               \
                             --rename                                              \
-                            --divert /lib/cryptsetup/cryptdisks.functions.distrib \
-                            /lib/cryptsetup/cryptdisks.functions
+                            --divert /lib/cryptsetup/cryptdisks-functions.distrib \
+                            /lib/cryptsetup/cryptdisks-functions
                 ;;
 
              *) :

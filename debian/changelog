@@ -1,3 +1,9 @@
+cryptsetup-modified-functions (19.09.01) mx; urgency=medium
+
+  * update for buster  
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 25 Sep 2019 18:07:32 -0400
+
 cryptsetup-modified-functions (18.11.01) mx; urgency=medium
 
   * Initial release
