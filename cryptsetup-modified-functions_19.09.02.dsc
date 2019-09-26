@@ -2,15 +2,15 @@ Format: 3.0 (native)
 Source: cryptsetup-modified-functions
 Binary: cryptsetup-modified-functions
 Architecture: all
-Version: 19.09.01
+Version: 19.09.02
 Maintainer: Steven Pusser <stevep@mxlinux.org>
 Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9)
 Package-List:
  cryptsetup-modified-functions deb system optional arch=all
 Checksums-Sha1:
- 10309b713113a26897b96775fc75311159303cd5 7072 cryptsetup-modified-functions_19.09.01.tar.xz
+ 3d1468260d6b2f2dd3183771a4ef6ab7260f1133 7084 cryptsetup-modified-functions_19.09.02.tar.xz
 Checksums-Sha256:
- 0b597f7f43891fe38d5a5adad8dd7ed234cb5183cc56d4de92a0f8fb921d2b17 7072 cryptsetup-modified-functions_19.09.01.tar.xz
+ fe9c7221664277c8e4ce089738486020aa8ac322a2bd4a0d99ecb2e658169deb 7084 cryptsetup-modified-functions_19.09.02.tar.xz
 Files:
- 7fb7745af805df4e83cc1a331e316a64 7072 cryptsetup-modified-functions_19.09.01.tar.xz
+ 67b1cc639ce29923a73f7b58f152cefc 7084 cryptsetup-modified-functions_19.09.02.tar.xz

@@ -1,6 +1,6 @@
  dpkg-buildpackage -us -uc -ui
 dpkg-buildpackage: info: source package cryptsetup-modified-functions
-dpkg-buildpackage: info: source version 19.09.01
+dpkg-buildpackage: info: source version 19.09.02
 dpkg-buildpackage: info: source distribution mx
 dpkg-buildpackage: info: source changed by Dolphin Oracle <dolphinoracle@gmail.com>
  dpkg-source --before-build .
@@ -10,8 +10,8 @@ dh clean
    dh_clean
  dpkg-source -b .
 dpkg-source: info: using source format '3.0 (native)'
-dpkg-source: info: building cryptsetup-modified-functions in cryptsetup-modified-functions_19.09.01.tar.xz
-dpkg-source: info: building cryptsetup-modified-functions in cryptsetup-modified-functions_19.09.01.dsc
+dpkg-source: info: building cryptsetup-modified-functions in cryptsetup-modified-functions_19.09.02.tar.xz
+dpkg-source: info: building cryptsetup-modified-functions in cryptsetup-modified-functions_19.09.02.dsc
  debian/rules build
 dh build 
    dh_update_autotools_config
@@ -32,9 +32,9 @@ dh binary
    dh_gencontrol
    dh_md5sums
    dh_builddeb
-dpkg-deb: building package 'cryptsetup-modified-functions' in '../cryptsetup-modified-functions_19.09.01_all.deb'.
+dpkg-deb: building package 'cryptsetup-modified-functions' in '../cryptsetup-modified-functions_19.09.02_all.deb'.
  dpkg-genbuildinfo
- dpkg-genchanges  >../cryptsetup-modified-functions_19.09.01_amd64.changes
+ dpkg-genchanges  >../cryptsetup-modified-functions_19.09.02_amd64.changes
 dpkg-genchanges: info: including full source code in upload
  dpkg-source --after-build .
 dpkg-buildpackage: info: full upload; Debian-native package (full source is included)

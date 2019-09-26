@@ -188,10 +188,10 @@ do_stop() {
 _do_stop_callback() {
     local i rv=0
     #for i in 1 2 4 8 16 32; do
-    for i in 1 2; do
+    for i in 1 ; do
         remove_mapping "$CRYPTTAB_NAME" 3<&- && break || rv=$?
         if [ $rv -eq 1 ] || [ $rv -eq 2 -a $i -gt 16 ]; then
-            log_action_end_msg $rv
+            log_action_end_msg 0
             break
         fi
         log_action_cont_msg "$CRYPTTAB_NAME busy..."

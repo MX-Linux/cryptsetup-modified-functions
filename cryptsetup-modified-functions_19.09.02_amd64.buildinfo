@@ -2,19 +2,19 @@ Format: 1.0
 Source: cryptsetup-modified-functions
 Binary: cryptsetup-modified-functions
 Architecture: all source
-Version: 19.09.01
+Version: 19.09.02
 Checksums-Md5:
- ffa779049bfca0b872e6eb2845e76abe 647 cryptsetup-modified-functions_19.09.01.dsc
- d42b15d417dec4a24880d03fc39ef4af 3636 cryptsetup-modified-functions_19.09.01_all.deb
+ e00f71da06f1f498bcdacef15c52549d 647 cryptsetup-modified-functions_19.09.02.dsc
+ f052f6a5169d806283d52bff99401447 3660 cryptsetup-modified-functions_19.09.02_all.deb
 Checksums-Sha1:
- 3f7dab8bde6343f2b22793699921698057c58a64 647 cryptsetup-modified-functions_19.09.01.dsc
- 03ef7e19ee9b0fd5a3e5ffa056a07004277ae7b9 3636 cryptsetup-modified-functions_19.09.01_all.deb
+ 418f1a088f5054265ce75e6b4743ffecc109e101 647 cryptsetup-modified-functions_19.09.02.dsc
+ 1dfbdc3df7bc0799a1effcf5d85bcdfa038d8cdc 3660 cryptsetup-modified-functions_19.09.02_all.deb
 Checksums-Sha256:
- aebf0e23396583d22111112afed61ccbae806f6f9a5ba3a5dd66f9b469f4bb62 647 cryptsetup-modified-functions_19.09.01.dsc
- df34f6f83b41c4a9181aa2014de2083d82d020331f31864c48d98fcead13d03c 3636 cryptsetup-modified-functions_19.09.01_all.deb
+ db39e236af0d78976e8aa9f175f1be29bc77d8596f747460cb367094ebeabf8f 647 cryptsetup-modified-functions_19.09.02.dsc
+ a76c2c0b0d61a69eedda94009c229e1bb37d504ca5324d8f6e6bba0df6ef1ec7 3660 cryptsetup-modified-functions_19.09.02_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Wed, 25 Sep 2019 18:08:40 -0400
+Build-Date: Wed, 25 Sep 2019 21:29:41 -0400
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-libraries
@@ -162,4 +162,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=4"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1569449252"
+ SOURCE_DATE_EPOCH="1569461346"
